@@ -1,0 +1,17 @@
+# drinks
+first question:What would you like to drink?
+Would you like ice/and lemon?
+What kind of alcoholic drink would you like?
+What kind of soda would you like?
+# appetizers
+Would you like to start with appetizers?
+What appetizer would you like?
+# entree
+What entree would you like?
+What kind of fish would you like?
+How would you like your steak cooked?
+# dessert
+Would you like dessert?
+What kind of dessert would you like?
+# output
+Output Recommendation"

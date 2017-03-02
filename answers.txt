@@ -1,0 +1,36 @@
+# adding edges from drinks to specific drinks
+What would you like to drink?|water|Would you like ice/and lemon?
+What would you like to drink?|alcohol|What kind of alcoholic drink would you like?"
+What would you like to drink?|soda|What kind of soda would you like?
+# adding edges from drinks to prompting for an appetizer
+Would you like ice/and lemon?|ice|Would you like to start with appetizers?
+Would you like ice/and lemon?|lemon|Would you like to start with appetizers?
+What kind of alcoholic drink would you like?|beer|Would you like to start with appetizers?
+What kind of alcoholic drink would you like?|wine|Would you like to start with appetizers?
+What kind of alcoholic drink would you like?|sake|Would you like to start with appetizers?
+What kind of soda would you like?|coke|Would you like to start with appetizers?
+What kind of soda would you like?|sprite|Would you like to start with appetizers?
+What kind of soda would you like?|ginger ale|Would you like to start with appetizers?
+# adding edges from prompting for appetizer to specifying an appetizer/entree
+Would you like to start with appetizers?|yes|What appetizer would you like?
+Would you like to start with appetizers?|no|What entree would you like?
+# adding edges from specifying appetizer to an entree
+What appetizer would you like?|salad|What entree would you like?
+What appetizer would you like?|bread|What entree would you like?
+What appetizer would you like?|fries|What entree would you like?
+# adding edges from prompting an entree to specifying an entree
+What entree would you like?|fish|What kind of fish would you like?
+What entree would you like?|steak|How would you like your steak cooked?
+# adding edges from specifying entree to prompting dessert 
+What kind of fish would you like?|salmon|Would you like dessert?
+What kind of fish would you like?|snapper|Would you like dessert?
+What kind of fish would you like?|trout|Would you like dessert?
+How would you like your steak cooked?|medium-rare|Would you like dessert?
+How would you like your steak cooked?|medium|Would you like dessert?
+How would you like your steak cooked?|well-done|Would you like dessert?
+# adding edge from prompting dessert to specifying dessert
+Would you like dessert?|yes|What kind of dessert would you like?
+# adding edge from specifying dessert to output recommendation
+What kind of dessert would you like?|cheesecake|Output Recommendation
+What kind of dessert would you like?|ice-cream|Output Recommendation
+Would you like dessert?|no|Output Recommendation
