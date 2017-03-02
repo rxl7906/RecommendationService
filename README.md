@@ -28,6 +28,7 @@ Example: Given the question and next question, "What would you like to drink?" a
 1. Clone repo in eclipse
 2. Run the RecommendativeService.java file
 3. Answer the questions provided with "exact" input
+
 # How to run without Eclipse
 1. git clone https://github.com/rxl7906/RecommendationService.git
 2. Move the questions.txt and answers.txt files in the same directory as RecommendationService.java.
