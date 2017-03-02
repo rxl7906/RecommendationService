@@ -24,6 +24,17 @@ Value: Possible answers to a given question (edges between nodes in a graph)
 > In the answers.txt, one line represents an edge. 
 Example: Given the question and next question, "What would you like to drink?" and "Would you like ice/and lemon?" it finds the first question and next question in the graph and creates an edge between those question using an answer.
 
+# How to run program with IDE (Eclipse)
+1) Clone repo in eclipse
+2) Run the RecommendativeService.java file
+3) Answer the questions provided with "exact" input
+# How to run without Eclipse
+1) git clone https://github.com/rxl7906/RecommendationService.git
+2) Move the questions.txt and answers.txt files in the same directory as RecommendationService.java.
+3) run "javac RecommendationService.java"
+4) run "java RecommendationService"
+5) Answer the questions provided with "exact" input
+
 # In Progress
 - How to construct the recommendation coherently?
 

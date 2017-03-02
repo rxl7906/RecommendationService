@@ -117,7 +117,7 @@ public class RecommendationService {
 			}
 			String userInput = null;
 	        try {
-				userInput = br.readLine();
+				userInput = br.readLine().toLowerCase(); // make input string lowercase
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
