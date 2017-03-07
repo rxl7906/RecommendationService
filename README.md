@@ -6,6 +6,9 @@ Recommendation Service is a service which will provide a list of questions to un
 # Exercise:
 For simplicity, we will build a class instead of a web service. Class methods will represent the different APIs in the service. Please also provide a brief example of how this class will be used, you may also want to provide a sample graph for your example.
 
+# Context:
+This is a recommendation service for someone choosing courses of food at a restaurant. The objective is to provide a recommendation for what to order based on the user's preference.
+
 # Files:
 - RecommendationServiceModel.jpg: graph model written on paper to illustrate the control flow
 - questions.txt: questions to be inserted into the recommendation service
